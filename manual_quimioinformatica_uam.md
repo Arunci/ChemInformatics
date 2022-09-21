@@ -63,3 +63,18 @@ y tiempo es elevado, por los que la búsqueda se hace en tandas:
 1. Compuestos anotados: se consideran 10 confórmeros para cada uno.
 2. Compuestos con enlaces a patentes: se consideran 5 confórmeros.
 3. Compuestos restantes: se consideran tres confórmeros.
+
+#### Puntuando la similitud entre compuestos
+
+1. Debemos ir al servicio `PubChem Score Matrix` ![](https://pubchem.ncbi.nlm.nih.gov/score_matrix)
+2. Seleccionamos "3D Similarity, shape optimized"
+3. Cargamos el fichero con los cids, sin incluir la cabezera que obtuvimos de la búsqueda 2D. 
+
+#### Consiguiendo los datos de bioactividad para el compuesto diana a partir de la búsqueda de subestructuras
+
+Cuando un motivo estructural aparece en una estructura mayor, el primero
+recibe el nombre de **subestructura** y el segundo el de **superestructura**.
+![](subestructuras.png)
+
+#### Encontrar todos los medicamentos que interactúan con un determinado gen
+
